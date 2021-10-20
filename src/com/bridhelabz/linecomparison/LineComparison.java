@@ -9,6 +9,7 @@ public class LineComparison {
 		System.out.println("Welcome to Line Comparison");
 		LengthCalculate();
 		toCheckEquality();
+		toCheckGreaterOrLess();
 	}
 
 	public static void LengthCalculate() {
@@ -24,6 +25,28 @@ public class LineComparison {
 
 	public static void toCheckEquality() {
 
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter x co-ordinate of first point: ");
+		int x1 = s.nextInt();
+		System.out.println("Enter y co-ordinate of first point: ");
+		int y1 = s.nextInt();
+		System.out.println("Enter x co-ordinate of second point: ");
+		int x2 = s.nextInt();
+		System.out.println("Enter y co-ordinate of second point: ");
+		int y2 = s.nextInt();
+
+		System.out.println("Enter x co-ordinate of third point: ");
+		int p1 = s.nextInt();
+		System.out.println("Enter y co-ordinate of third point: ");
+		int q1 = s.nextInt();
+		System.out.println("Enter x co-ordinate of forth point: ");
+		int p2 = s.nextInt();
+		System.out.println("Enter y co-ordinate of forth point: ");
+		int q2 = s.nextInt();
+		s.close();
+	}
+
+	public static void toCheckGreaterOrLess() {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter x co-ordinate of first point: ");
 		int x1 = s.nextInt();
